@@ -1,0 +1,67 @@
+
+==================== FINAL INTERFACE ====================
+2017-10-12 23:34:43.3781445 UTC
+
+interface 1jamHaskell-0.1.0.0-Fw5AgGpdDU34lRL5sfGx5y:CIS194.Homework1 8002
+  interface hash: e04352a198d3d4813dad8b9f0cf5a7bd
+  ABI hash: d463ff6ca01d5dd59822008643ef027f
+  export-list hash: 672840098408c129de849206cb7f139c
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 0027db76bc125bbd2e99175615cb9238
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  CIS194.Homework1.toDigits
+  CIS194.Homework1.toDigitsRev
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:GHC.Base 4caea1123ecf4b46e27cbccd6d279377
+import  -/  base-4.9.1.0:GHC.List d11eb227c1c6fbfd89bb781d72eaea0d
+import  -/  base-4.9.1.0:GHC.Real b88ae4a48c079652623073a5bbf5c9b0
+import  -/  base-4.9.1.0:Prelude 74b3e204395920329f6de9d97206abe9
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 16d48e012d23eaef9bca91ccdd572c02
+import  -/  integer-gmp-1.0.0.1:GHC.Integer.Type 5e60b761569ee353529e98a36b72df11
+db371ee94f1adfec095768a166d6f563
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   CIS194.Homework1.$trModule2
+                   CIS194.Homework1.$trModule1) -}
+8349230ba8f622b57d5b1d0395e9cf9e
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "CIS194.Homework1"#) -}
+c303395ee68139a66d61dfab33bc9156
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "1jamHaskell-0.1.0.0-Fw5AgGpdDU34lRL5sfGx5y"#) -}
+86baa6513ed6cf390616ce0d7afcb38e
+  toDigits :: GHC.Integer.Type.Integer -> [GHC.Integer.Type.Integer]
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (x :: GHC.Integer.Type.Integer) ->
+                 GHC.List.reverse1
+                   @ GHC.Integer.Type.Integer
+                   (CIS194.Homework1.toDigitsRev x)
+                   (GHC.Types.[] @ GHC.Integer.Type.Integer)) -}
+dcc0c83b42a0a37d521013750711d19f
+  toDigitsRev ::
+    GHC.Integer.Type.Integer -> [GHC.Integer.Type.Integer]
+  {- Arity: 1, Strictness: <S,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
